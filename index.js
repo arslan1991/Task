@@ -47,7 +47,7 @@ const model = CGroup([
         unansweredCase("Select Head Support"),
         ccase("Comfi Standard"),
         ccase("Comfi Extended"),
-        ccase("Mount & Stem Harden"),
+        ccase("Mount & Stem Hardware"),
     ])),
 
     cmember("arm_support", "Arm Supports", CSelect([
@@ -111,13 +111,13 @@ const model = CGroup([
         
     ])),
 
-    cmember("swivel_lock", "Swivel Lock", CGroup([
+    cmember("swivel_lock", "Swivel Lock:", CGroup([
         cmember("for_both_size_1_&_size_2", "For Both Size 1 & Size 2", CBoolean([
 
         
     ])),
     ])),
-    cmember("hand_strap", "Hand Strap", CGroup([
+    cmember("hand_strap", "Hand Strap:", CGroup([
         cmember("wrist_safety_strap", "Wrist Safety Strap", CBoolean([
 
        

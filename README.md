@@ -1,6 +1,8 @@
-# Instructions
+# Instructions to check output
 
-#open terminal in Project Folder
+#download complete code folder
+
+#open terminal/cmd in 'Project' Folder
 
 #use following command:
 node_modules/.bin/webpack --progress --production
